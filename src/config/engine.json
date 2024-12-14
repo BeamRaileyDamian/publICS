@@ -1,0 +1,29 @@
+{
+  "engineName": "publics",
+  "endpointBase": "https://my-deployment-9c699b.ent.asia-southeast1.gcp.elastic-cloud.com",
+  "searchKey": "search-qegru8y5bjis3rf9w9unt44z",
+  "resultFields": [
+    "research_topic",
+    "file",
+    "publication_date",
+    "source_of_origin",
+    "publisher",
+    "language",
+    "abstract",
+    "title",
+    "authors",
+    "paper_type",
+    "document_type",
+    "id"
+  ],
+  "sortFields": [
+    "publication_date"
+  ],
+  "facets": [
+    "language",
+    "document_type",
+    "paper_type"
+  ],
+  "titleField": "title",
+  "urlField": "file"
+}
