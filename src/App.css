@@ -1,0 +1,32 @@
+/* We selectedivly override base styles to create a red theme */
+.customization-example .sui-search-box__submit {
+  background: none;
+  background-color: #bd224e;
+  font-size: 1rem; /* Adjust text size */
+  font-weight: 700; /* Adjust text weight */
+  padding-left: 20px; /* Add padding on the left */
+  padding-right: 20px; /* Add padding on the right */
+}
+
+.customization-example .sui-layout-sidebar-toggle {
+  color: #bd224e;
+  border: 1px solid #bd224e;
+}
+
+.customization-example .sui-facet-view-more {
+  color: #bd224e;
+}
+
+.customization-example .sui-suggestion:hover {
+  color: #bd224e; /* Change to red on hover */
+}
+
+.customization-example .sui-search-box__text-input:focus {
+  border-color: #bd224e; /* Change to red on hover */
+}
+
+.customization-example .rc-pagination .sui-paging {
+  color: #bd224e; /* Change to red on hover */
+  font-size: 14px; /* Adjust text size */
+  background-color: #bd224e;
+}
